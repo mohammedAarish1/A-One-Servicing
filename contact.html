@@ -1,0 +1,168 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | A One Servicing</title>
+    <link rel="icon" href="./assets/logo.webp" type="image/x-icon">
+
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header (same as home page) -->
+
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="assets/logo.webp" alt="A One Servicing" class="logo">
+                </a>
+            </div>
+
+            <nav class="nav-wrapper">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">
+                            <i class="fas fa-info-circle"></i>
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            <!-- <i class="fas fa-phone"></i> -->
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="contact-info">
+                    <div class="phone-number">
+                        <!-- <i class="fas fa-phone-alt"></i> -->
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <span>+91 6200 763 702</span>
+                    </div>
+                    <a href="tel:+6200763702" class="book-service-btn btn">
+                        <i class="fas fa-calendar-check"></i>
+                        Book Service
+                    </a >
+                </div>
+
+                <button class="mobile-menu" aria-label="Toggle Menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for all your appliance repair needs</p>
+        </div>
+    </section>
+
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h2>Send us a message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="ac">AC Repair</option>
+                                <option value="refrigerator">Refrigerator Repair</option>
+                                <option value="washing-machine">Washing Machine Repair</option>
+                                <option value="water-purifier">Water Purifier Service</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info-container">
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+91 6200 763 702</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>aoneservicingpatna@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map-container">
+                <h2>Find Us</h2>
+                <!-- <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c1191%3A0x49f75d3281df052a!2s150%20Park%20Row%2C%20New%20York%2C%20NY%2010007%2C%20USA!5e0!3m2!1sen!2s!4v1623164318440!5m2!1sen!2s"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.9971612514732!2d85.08213697517769!3d25.6050105774507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed578ab11e17e7%3A0x2f1d566a4471810!2sBailey%20Rd%2C%20Patna%2C%20Bihar!5e0!3m2!1sen!2sin!4v1739719379700!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as home page) -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <img src="assets/logo.webp" alt="A One Servicing" class="footer-logo">
+                    <p>Your trusted partner for all home appliance repairs</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Janki Raj Market, Baily Rd, Rukanpura, Patna, Bihar-800025 (Near The Raymond Shop)</p>
+                    <p><i class="fas fa-phone"></i> +91 6200 763 702</p>
+                    <p><i class="fas fa-envelope"></i> aoneservicingpatna@gmail.com</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/global.js"></script>
+    <script src="/js/contact.js"></script>
+</body>
+
+</html>
